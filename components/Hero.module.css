@@ -14,14 +14,20 @@
   z-index: 0;
   pointer-events: none;
 }
-.grid {
+.aurora {
   position: absolute;
-  inset: -2px;
-  background-image: linear-gradient(var(--grid-line) 1px, transparent 1px),
-    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
-  background-size: 46px 46px;
-  mask-image: radial-gradient(ellipse 80% 60% at 50% 35%, #000 30%, transparent 75%);
-  -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 35%, #000 30%, transparent 75%);
+  inset: -10%;
+  background-image: radial-gradient(38% 50% at 20% 18%, var(--accent-soft), transparent 62%),
+    radial-gradient(34% 46% at 82% 12%, rgba(139, 92, 246, 0.1), transparent 60%),
+    radial-gradient(46% 52% at 55% 88%, var(--accent-soft), transparent 66%);
+  mask-image: radial-gradient(ellipse 85% 70% at 50% 40%, #000 35%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse 85% 70% at 50% 40%, #000 35%, transparent 80%);
+  animation: auroraShift 22s ease-in-out infinite alternate;
+}
+@keyframes auroraShift {
+  to {
+    transform: translate3d(0, -14px, 0) scale(1.06);
+  }
 }
 .blob {
   position: absolute;

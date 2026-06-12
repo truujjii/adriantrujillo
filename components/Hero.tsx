@@ -28,7 +28,7 @@ export function Hero() {
   return (
     <section className={styles.hero} id="top">
       <div className={styles.bg} aria-hidden>
-        <div className={styles.grid} />
+        <div className={styles.aurora} />
         <div className={`${styles.blob} ${styles.blob1}`} />
         <div className={`${styles.blob} ${styles.blob2}`} />
         <div className={styles.noise} />

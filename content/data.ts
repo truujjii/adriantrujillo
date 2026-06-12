@@ -37,6 +37,14 @@ export interface StrengthItem {
   text: string
 }
 
+export type SportIcon = 'basketball' | 'boxing' | 'padel' | 'hiking' | 'more'
+
+export interface SportItem {
+  icon: SportIcon
+  name: string
+  detail: string
+}
+
 export interface Content {
   nav: { about: string; skills: string; experience: string; projects: string; contact: string }
   hero: {
@@ -69,6 +77,14 @@ export interface Content {
     coursework: string[]
   }
   strengths: { title: string; subtitle: string; items: StrengthItem[] }
+  sports: {
+    eyebrow: string
+    title: string
+    lead: string
+    items: SportItem[]
+    valuesTitle: string
+    values: string[]
+  }
   contact: {
     title: string
     subtitle: string
@@ -270,9 +286,23 @@ const en: Content = {
       },
     ],
   },
+  sports: {
+    eyebrow: 'Beyond the desk',
+    title: 'Sport & values',
+    lead: 'Sport has been part of my life since I was six. I played competitive basketball for 15 years, and I’ve never stopped moving since. More than a hobby, it’s where I built the values I bring to every team.',
+    items: [
+      { icon: 'basketball', name: 'Basketball', detail: '15 years competing · ages 6–21' },
+      { icon: 'boxing', name: 'Boxing', detail: 'Current focus · discipline & resilience' },
+      { icon: 'padel', name: 'Padel', detail: 'Regular · agility & quick decisions' },
+      { icon: 'hiking', name: 'Hiking', detail: 'Endurance & a clear head' },
+      { icon: 'more', name: 'Anything, really', detail: 'An all-round sports enthusiast' },
+    ],
+    valuesTitle: 'What it taught me',
+    values: ['Teamwork', 'Discipline', 'Resilience', 'Commitment', 'Competitive drive', 'Performing under pressure'],
+  },
   contact: {
     title: 'Let’s talk',
-    subtitle: 'Open to CRM & Automation roles in Dubai and the GCC. The fastest way to reach me is email.',
+    subtitle: 'Open to CRM & Automation roles in Dubai. The fastest way to reach me is email.',
     emailLabel: 'Email me',
     phoneLabel: 'Call',
     cta: 'Send an email',
@@ -471,9 +501,23 @@ const es: Content = {
       },
     ],
   },
+  sports: {
+    eyebrow: 'Más allá del escritorio',
+    title: 'Deporte y valores',
+    lead: 'El deporte forma parte de mi vida desde los seis años. Jugué al baloncesto de competición durante 15 años y desde entonces no he parado de moverme. Más que un hobby, es donde forjé los valores que aporto a cualquier equipo.',
+    items: [
+      { icon: 'basketball', name: 'Baloncesto', detail: '15 años compitiendo · de los 6 a los 21' },
+      { icon: 'boxing', name: 'Boxeo', detail: 'Mi foco actual · disciplina y resiliencia' },
+      { icon: 'padel', name: 'Pádel', detail: 'Habitual · agilidad y decisión rápida' },
+      { icon: 'hiking', name: 'Senderismo', detail: 'Resistencia y cabeza despejada' },
+      { icon: 'more', name: 'Cualquier deporte', detail: 'Aficionado al deporte en general' },
+    ],
+    valuesTitle: 'Lo que me ha enseñado',
+    values: ['Trabajo en equipo', 'Disciplina', 'Resiliencia', 'Compromiso', 'Espíritu competitivo', 'Rendir bajo presión'],
+  },
   contact: {
     title: 'Hablemos',
-    subtitle: 'Abierto a roles de CRM & Automatización en Dubái y el GCC. La forma más rápida de contactarme es el email.',
+    subtitle: 'Abierto a roles de CRM & Automatización en Dubái. La forma más rápida de contactarme es el email.',
     emailLabel: 'Escríbeme',
     phoneLabel: 'Llamar',
     cta: 'Enviar un email',

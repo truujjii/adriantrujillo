@@ -74,3 +74,41 @@ export const Pin = (p: SVGProps<SVGSVGElement>) => (
     <circle cx="12" cy="10" r="3" />
   </svg>
 )
+
+export const Basketball = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <circle cx="12" cy="12" r="9" />
+    <path d="M12 3v18M3 12h18" />
+    <path d="M5.6 5.6c3.4 3 3.4 9.8 0 12.8M18.4 5.6c-3.4 3-3.4 9.8 0 12.8" />
+  </svg>
+)
+
+export const Boxing = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M8 4h5a5 5 0 0 1 5 5v3a4 4 0 0 1-4 4H9a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2Z" />
+    <path d="M6 11H5a2 2 0 0 0 0 4h2" />
+    <path d="M8 16v2a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-2" />
+  </svg>
+)
+
+export const Padel = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <ellipse cx="12" cy="8.5" rx="6" ry="6.5" />
+    <path d="M9 7v3.5M12 6v5M15 7v3.5" />
+    <path d="M12 15v6M9.5 21h5" />
+  </svg>
+)
+
+export const Hiking = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M3 20h18" />
+    <path d="m5 20 5.5-12 3.5 7 2-3.5 5 8.5" />
+  </svg>
+)
+
+export const Sparkle = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <path d="M12 3c.4 3.6 1.4 4.6 5 5-3.6.4-4.6 1.4-5 5-.4-3.6-1.4-4.6-5-5 3.6-.4 4.6-1.4 5-5Z" />
+    <path d="M18 14c.2 1.6.7 2.1 2.3 2.3-1.6.2-2.1.7-2.3 2.3-.2-1.6-.7-2.1-2.3-2.3 1.6-.2 2.1-.7 2.3-2.3Z" />
+  </svg>
+)

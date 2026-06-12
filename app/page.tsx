@@ -9,6 +9,7 @@ import { Experience } from '@/components/Experience'
 import { Projects } from '@/components/Projects'
 import { Education } from '@/components/Education'
 import { Strengths } from '@/components/Strengths'
+import { Sports } from '@/components/Sports'
 import { Contact } from '@/components/Contact'
 import { Footer } from '@/components/Footer'
 
@@ -27,6 +28,7 @@ export default function Home() {
         <Projects />
         <Education />
         <Strengths />
+        <Sports />
         <Contact />
       </main>
       <Footer />
