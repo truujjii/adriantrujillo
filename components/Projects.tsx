@@ -33,7 +33,7 @@ export function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className={styles.linkBtn}
-                      aria-label={`${p.title} — ${p.link.label}`}
+                      aria-label={`${p.title}, ${p.link.label}`}
                     >
                       <ExternalLink />
                     </a>

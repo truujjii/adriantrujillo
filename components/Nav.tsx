@@ -40,7 +40,7 @@ export function Nav() {
   return (
     <header className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.inner}>
-        <a href="#top" className={styles.brand} aria-label="Adrián Trujillo — home">
+        <a href="#top" className={styles.brand} aria-label="Adrián Trujillo, home">
           <span className={styles.mark}>AT</span>
           <span className={styles.brandName}>Adrián Trujillo</span>
         </a>

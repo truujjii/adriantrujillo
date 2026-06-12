@@ -105,7 +105,7 @@ const en: Content = {
     roles: ['Automation that ships.', 'CRMs that talk to WhatsApp.', 'Data that drives decisions.'],
     locationPill: 'Open to relocation · Dubai, UAE',
     summary:
-      'Business & Technology graduate who builds end-to-end automations connecting CRMs with WhatsApp, email and internal systems — and turns the output into dashboards that track what matters.',
+      'Business & Technology graduate who builds end-to-end automations connecting CRMs with WhatsApp, email and internal systems, and turns the output into dashboards that track what matters.',
     ctaContact: 'Get in touch',
     ctaCV: 'Download CV',
     availability: 'Spanish (EU) citizen · Eligible for UAE visa sponsorship',
@@ -114,7 +114,7 @@ const en: Content = {
     title: 'About',
     paragraphs: [
       'I’m a Business & Technology graduate (Universitat Autònoma de Barcelona, 2026) specialising in workflow automation and CRM-driven operations.',
-      'I build end-to-end automations that connect CRMs with WhatsApp, email and internal systems using Make.com, n8n, webhooks and LLM APIs — then turn the output into Power BI dashboards that track KPIs and conversion.',
+      'I build end-to-end automations that connect CRMs with WhatsApp, email and internal systems using Make.com, n8n, webhooks and LLM APIs, then turn the output into Power BI dashboards that track KPIs and conversion.',
       'I bring a strong data-integrity and security mindset from a Technology Risk Assurance role at BDO Spain (ITGC, access management, GDPR, ISO 27001), plus hands-on commercial experience in sales, marketing and client-facing operations. I learn new platforms fast and take end-to-end ownership.',
     ],
     languagesTitle: 'Languages',
@@ -126,7 +126,6 @@ const en: Content = {
     ],
   },
   stats: [
-    { value: 14, suffix: 'M', label: 'Accounting rows analysed at BDO' },
     { value: 100, prefix: '~', label: 'Vehicle transactions managed / month' },
     { value: 35, label: 'Online services launched for a live business' },
     { value: 3, label: 'Businesses taken digital from zero' },
@@ -181,11 +180,11 @@ const en: Content = {
     items: [
       {
         role: 'IT Audit & Compliance Analyst (Internship)',
-        company: 'BDO Spain — Technology Risk Assurance',
-        period: 'Jan 2026 – Jun 2026',
+        company: 'BDO Spain, Technology Risk Assurance',
+        period: 'Jan 2026 → Jun 2026',
         bullets: [
           'Executed ITGC audits for large enterprise and financial-services clients (incl. LIDL, Grupo Ebro, Honda and banking clients), covering access controls, change management and data integrity aligned with GDPR and ISO 27001.',
-          'Performed deep-dive analysis on accounting journals of up to 14M rows using SQL, advanced Excel and Power BI; identified exceptions, segregation-of-duties conflicts and anomalous transaction patterns across complex ERP environments.',
+          'Performed deep-dive analysis on enterprise accounting journals, some exceeding 14M rows, using SQL, advanced Excel and Power BI; identified exceptions, segregation-of-duties conflicts and anomalous transaction patterns across complex ERP environments.',
           'Participated in client walkthroughs and stakeholder meetings; produced structured risk documentation, mapped data flows and identified control gaps for senior leadership.',
         ],
         tags: ['ITGC', 'SQL', 'Power BI', 'GDPR', 'ISO 27001'],
@@ -193,7 +192,7 @@ const en: Content = {
       {
         role: 'Sales & Operations Lead',
         company: 'Motos Turó, Terrassa',
-        period: 'Nov 2024 – Sep 2025',
+        period: 'Nov 2024 → Sep 2025',
         bullets: [
           'Managed the full lifecycle of second-hand motorcycle trading (~100 units/month): valuation, sourcing, negotiation with private sellers, documentation, financing coordination and after-sales support.',
           'Launched and ran the dealership’s official accounts on Wallapop, TikTok and Instagram from scratch; produced organic content that drove a measurable uplift in qualified leads and showroom footfall.',
@@ -204,7 +203,7 @@ const en: Content = {
       {
         role: 'Web & Digital Operations Manager',
         company: 'Moments per Mi (Wellness business)',
-        period: '2023 – Present',
+        period: '2023 → Present',
         bullets: [
           'Built the business website from scratch (35 services online) with online payments and automated PDF gift-voucher generation.',
           'Manage all ongoing digital operations (~7 services/day), SEO, content and technical maintenance.',
@@ -214,7 +213,7 @@ const en: Content = {
       {
         role: 'Marketing & Digital Strategy Lead',
         company: 'JS Trans S.L. (Transport & Logistics)',
-        period: 'Oct 2023 – Jul 2024',
+        period: 'Oct 2023 → Jul 2024',
         bullets: [
           'Designed and executed a multi-channel digital strategy (corporate LinkedIn + website end-to-end).',
           'Co-developed proprietary driver-operations apps that improved traceability and internal communication; coordinated external lead-generation agencies.',
@@ -241,7 +240,7 @@ const en: Content = {
         subtitle: 'Bachelor’s thesis',
         year: '2026',
         description:
-          'A fully automated Python pipeline that scrapes, cleans and consolidates data and pushes it, via GitHub Actions and the Microsoft Graph API, into a continuously updated Power BI dashboard — at zero infrastructure cost. Public repository on GitHub.',
+          'A fully automated Python pipeline that scrapes, cleans and consolidates data and pushes it, via GitHub Actions and the Microsoft Graph API, into a continuously updated Power BI dashboard at zero infrastructure cost. Public repository on GitHub.',
         tags: ['Python', 'Power BI', 'GitHub Actions', 'MS Graph API'],
         link: { label: 'GitHub', href: 'https://github.com/truujjii' },
       },
@@ -251,8 +250,8 @@ const en: Content = {
     title: 'Education',
     degree: 'Bachelor’s Degree in Business & Technology',
     school: 'Universitat Autònoma de Barcelona (UAB), Spain',
-    period: '2022 – 2026',
-    note: 'A hybrid degree merging business management with applied technology — not a traditional business administration programme.',
+    period: '2022 → 2026',
+    note: 'A hybrid degree merging business management with applied technology, not a traditional business administration programme.',
     courseworkTitle: 'Key coursework',
     coursework: [
       'Data Analytics & Programming',
@@ -278,7 +277,7 @@ const en: Content = {
       },
       {
         title: 'Ownership & learning agility',
-        text: 'Launched digital operations from zero across three businesses and self-taught a modern data and automation stack — end-to-end ownership, fast adaptation to new tools.',
+        text: 'Launched digital operations from zero across three businesses and self-taught a modern data and automation stack, with end-to-end ownership and fast adaptation to new tools.',
       },
       {
         title: 'Negotiation & commercial drive',
@@ -291,7 +290,7 @@ const en: Content = {
     title: 'Sport & values',
     lead: 'Sport has been part of my life since I was six. I played competitive basketball for 15 years, and I’ve never stopped moving since. More than a hobby, it’s where I built the values I bring to every team.',
     items: [
-      { icon: 'basketball', name: 'Basketball', detail: '15 years competing · ages 6–21' },
+      { icon: 'basketball', name: 'Basketball', detail: '15 years competing · ages 6 to 21' },
       { icon: 'boxing', name: 'Boxing', detail: 'Current focus · discipline & resilience' },
       { icon: 'padel', name: 'Padel', detail: 'Regular · agility & quick decisions' },
       { icon: 'hiking', name: 'Hiking', detail: 'Endurance & a clear head' },
@@ -320,7 +319,7 @@ const es: Content = {
     roles: ['Automatización que funciona.', 'CRMs que hablan con WhatsApp.', 'Datos que guían decisiones.'],
     locationPill: 'Disponible para relocalización · Dubái, EAU',
     summary:
-      'Graduado en Business & Technology que construye automatizaciones de principio a fin conectando CRMs con WhatsApp, email y sistemas internos — y convierte la salida en dashboards que miden lo que importa.',
+      'Graduado en Business & Technology que construye automatizaciones de principio a fin conectando CRMs con WhatsApp, email y sistemas internos, y convierte la salida en dashboards que miden lo que importa.',
     ctaContact: 'Contactar',
     ctaCV: 'Descargar CV',
     availability: 'Ciudadano español (UE) · Elegible para visado de trabajo en EAU',
@@ -329,7 +328,7 @@ const es: Content = {
     title: 'Sobre mí',
     paragraphs: [
       'Soy graduado en Business & Technology (Universitat Autònoma de Barcelona, 2026), especializado en automatización de flujos de trabajo y operaciones basadas en CRM.',
-      'Construyo automatizaciones de principio a fin que conectan CRMs con WhatsApp, email y sistemas internos usando Make.com, n8n, webhooks y APIs de LLM — y convierto la salida en dashboards de Power BI que siguen KPIs y conversión.',
+      'Construyo automatizaciones de principio a fin que conectan CRMs con WhatsApp, email y sistemas internos usando Make.com, n8n, webhooks y APIs de LLM, y convierto la salida en dashboards de Power BI que siguen KPIs y conversión.',
       'Aporto una fuerte mentalidad de integridad y seguridad de datos desde un rol de Technology Risk Assurance en BDO España (ITGC, gestión de accesos, RGPD, ISO 27001), además de experiencia comercial real en ventas, marketing y atención al cliente. Aprendo plataformas nuevas rápido y asumo la responsabilidad de extremo a extremo.',
     ],
     languagesTitle: 'Idiomas',
@@ -341,7 +340,6 @@ const es: Content = {
     ],
   },
   stats: [
-    { value: 14, suffix: 'M', label: 'Filas contables analizadas en BDO' },
     { value: 100, prefix: '~', label: 'Transacciones de vehículos gestionadas / mes' },
     { value: 35, label: 'Servicios online lanzados para un negocio real' },
     { value: 3, label: 'Negocios digitalizados desde cero' },
@@ -396,11 +394,11 @@ const es: Content = {
     items: [
       {
         role: 'Analista de Auditoría IT & Compliance (Prácticas)',
-        company: 'BDO España — Technology Risk Assurance',
-        period: 'Ene 2026 – Jun 2026',
+        company: 'BDO España, Technology Risk Assurance',
+        period: 'Ene 2026 → Jun 2026',
         bullets: [
           'Ejecuté auditorías ITGC para grandes empresas y clientes de servicios financieros (incl. LIDL, Grupo Ebro, Honda y clientes bancarios), cubriendo controles de acceso, gestión de cambios e integridad de datos alineados con RGPD e ISO 27001.',
-          'Realicé análisis en profundidad sobre asientos contables de hasta 14M de filas con SQL, Excel avanzado y Power BI; identifiqué excepciones, conflictos de segregación de funciones y patrones de transacciones anómalas en entornos ERP complejos.',
+          'Realicé análisis en profundidad sobre asientos contables de grandes empresas, algunos de más de 14M de filas, con SQL, Excel avanzado y Power BI; identifiqué excepciones, conflictos de segregación de funciones y patrones de transacciones anómalas en entornos ERP complejos.',
           'Participé en walkthroughs con cliente y reuniones con stakeholders; elaboré documentación de riesgos estructurada, mapeé flujos de datos e identifiqué brechas de control para la dirección.',
         ],
         tags: ['ITGC', 'SQL', 'Power BI', 'RGPD', 'ISO 27001'],
@@ -408,7 +406,7 @@ const es: Content = {
       {
         role: 'Responsable de Ventas y Operaciones',
         company: 'Motos Turó, Terrassa',
-        period: 'Nov 2024 – Sep 2025',
+        period: 'Nov 2024 → Sep 2025',
         bullets: [
           'Gestioné el ciclo completo de compraventa de motos de segunda mano (~100 unidades/mes): tasación, captación, negociación con vendedores particulares, documentación, coordinación de financiación y posventa.',
           'Lancé y gestioné desde cero las cuentas oficiales del concesionario en Wallapop, TikTok e Instagram; produje contenido orgánico que generó un aumento medible de leads cualificados y visitas a la tienda.',
@@ -419,7 +417,7 @@ const es: Content = {
       {
         role: 'Responsable Web y Operaciones Digitales',
         company: 'Moments per Mi (Centro de bienestar)',
-        period: '2023 – Actualidad',
+        period: '2023 → Actualidad',
         bullets: [
           'Construí la web del negocio desde cero (35 servicios online) con pagos online y generación automática de vales regalo en PDF.',
           'Gestiono todas las operaciones digitales (~7 servicios/día), SEO, contenido y mantenimiento técnico.',
@@ -429,7 +427,7 @@ const es: Content = {
       {
         role: 'Responsable de Marketing y Estrategia Digital',
         company: 'JS Trans S.L. (Transporte y Logística)',
-        period: 'Oct 2023 – Jul 2024',
+        period: 'Oct 2023 → Jul 2024',
         bullets: [
           'Diseñé y ejecuté una estrategia digital multicanal (LinkedIn corporativo + web de principio a fin).',
           'Co-desarrollé apps propias de operaciones para conductores que mejoraron la trazabilidad y la comunicación interna; coordiné agencias externas de generación de leads.',
@@ -456,7 +454,7 @@ const es: Content = {
         subtitle: 'Trabajo de fin de grado',
         year: '2026',
         description:
-          'Un pipeline en Python totalmente automatizado que extrae, limpia y consolida datos y los envía, vía GitHub Actions y la Microsoft Graph API, a un dashboard de Power BI actualizado en continuo — con coste de infraestructura cero. Repositorio público en GitHub.',
+          'Un pipeline en Python totalmente automatizado que extrae, limpia y consolida datos y los envía, vía GitHub Actions y la Microsoft Graph API, a un dashboard de Power BI actualizado en continuo, con coste de infraestructura cero. Repositorio público en GitHub.',
         tags: ['Python', 'Power BI', 'GitHub Actions', 'MS Graph API'],
         link: { label: 'GitHub', href: 'https://github.com/truujjii' },
       },
@@ -466,8 +464,8 @@ const es: Content = {
     title: 'Formación',
     degree: 'Grado en Business & Technology',
     school: 'Universitat Autònoma de Barcelona (UAB), España',
-    period: '2022 – 2026',
-    note: 'Un grado híbrido que fusiona gestión empresarial con tecnología aplicada — no un programa tradicional de administración de empresas.',
+    period: '2022 → 2026',
+    note: 'Un grado híbrido que fusiona gestión empresarial con tecnología aplicada, no un programa tradicional de administración de empresas.',
     courseworkTitle: 'Asignaturas clave',
     coursework: [
       'Análisis de Datos y Programación',
@@ -493,7 +491,7 @@ const es: Content = {
       },
       {
         title: 'Responsabilidad y agilidad de aprendizaje',
-        text: 'Lancé operaciones digitales desde cero en tres negocios y aprendí de forma autodidacta un stack moderno de datos y automatización — responsabilidad de extremo a extremo y adaptación rápida.',
+        text: 'Lancé operaciones digitales desde cero en tres negocios y aprendí de forma autodidacta un stack moderno de datos y automatización, con responsabilidad de extremo a extremo y adaptación rápida.',
       },
       {
         title: 'Negociación e impulso comercial',
