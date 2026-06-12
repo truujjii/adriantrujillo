@@ -19,7 +19,7 @@ const sans = Inter({
   display: 'swap',
 })
 
-const siteUrl = 'https://adriantrujillo.vercel.app'
+const siteUrl = 'https://adriantrujillop.com'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

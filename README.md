@@ -2,7 +2,7 @@
 
 A bilingual (EN/ES), light/dark personal portfolio & interactive CV, built to showcase my work in **CRM & Automation, Workflow Design and Data & BI**.
 
-🌐 **Live:** _deploying on Vercel_ · 📄 [Download CV](public/Adrian-Trujillo-CV.pdf)
+🌐 **Live:** [adriantrujillop.com](https://adriantrujillop.com) · 📄 [Download CV](public/Adrian-Trujillo-CV.pdf)
 
 ## Highlights
 
