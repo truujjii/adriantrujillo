@@ -1,0 +1,77 @@
+.card {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: clamp(30px, 5vw, 64px);
+  padding: clamp(32px, 5vw, 52px);
+}
+.degree {
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  letter-spacing: -0.02em;
+  margin: 16px 0 10px;
+}
+.school {
+  color: var(--text-soft);
+  font-weight: 500;
+}
+.period {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+}
+.note {
+  margin-top: 18px;
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.right {
+  border-left: 1px solid var(--border);
+  padding-left: clamp(30px, 5vw, 64px);
+}
+.courseTitle {
+  font-size: 0.74rem;
+  font-family: var(--sans);
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 18px;
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.course {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-soft);
+  font-weight: 500;
+  font-size: 0.96rem;
+  transition: color 0.25s var(--ease), padding-left 0.3s var(--ease);
+}
+.course:last-child {
+  border-bottom: none;
+}
+.course:hover {
+  color: var(--accent);
+  padding-left: 8px;
+}
+
+@media (max-width: 760px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+  .right {
+    border-left: none;
+    border-top: 1px solid var(--border);
+    padding-left: 0;
+    padding-top: 30px;
+  }
+}

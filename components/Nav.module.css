@@ -1,0 +1,134 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transition: background-color 0.4s var(--ease), border-color 0.4s var(--ease),
+    box-shadow 0.4s var(--ease), backdrop-filter 0.4s var(--ease);
+  border-bottom: 1px solid transparent;
+}
+.scrolled {
+  background: color-mix(in srgb, var(--bg) 72%, transparent);
+  backdrop-filter: saturate(160%) blur(14px);
+  -webkit-backdrop-filter: saturate(160%) blur(14px);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+
+.inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+.mark {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: var(--text);
+  color: var(--bg);
+  font-family: var(--serif);
+  font-size: 0.85rem;
+  letter-spacing: -0.03em;
+  transition: transform 0.4s var(--ease);
+}
+.brand:hover .mark {
+  transform: rotate(-8deg) scale(1.05);
+}
+.brandName {
+  font-family: var(--serif);
+  font-size: 0.98rem;
+  letter-spacing: -0.02em;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.link {
+  position: relative;
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  transition: color 0.25s var(--ease), background 0.25s var(--ease);
+}
+.link:hover {
+  color: var(--text);
+}
+.linkActive {
+  color: var(--text);
+  background: var(--bg-elev);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.langToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 12px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  transition: border-color 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+.langToggle:hover {
+  border-color: var(--border-strong);
+}
+.langOn {
+  color: var(--accent);
+}
+.langSep {
+  opacity: 0.4;
+}
+.iconBtn {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  transition: border-color 0.25s var(--ease), transform 0.35s var(--ease), color 0.25s var(--ease);
+}
+.iconBtn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: rotate(12deg);
+}
+.iconBtn svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 760px) {
+  .links {
+    display: none;
+  }
+  .brandName {
+    display: none;
+  }
+}
