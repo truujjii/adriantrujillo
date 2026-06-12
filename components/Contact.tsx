@@ -4,7 +4,7 @@ import { useLang } from '@/lib/i18n'
 import { contactInfo } from '@/content/data'
 import { Reveal } from './Reveal'
 import { Magnetic } from './Magnetic'
-import { Mail, Phone, Linkedin, Github, Download, ArrowRight } from './icons'
+import { Mail, Linkedin, Github, Download, ArrowRight } from './icons'
 import styles from './Contact.module.css'
 
 export function Contact() {
@@ -50,13 +50,6 @@ export function Contact() {
 
           <Reveal delay={0.2}>
             <div className={styles.channels}>
-              <a href={`tel:${contactInfo.phoneHref}`} className={styles.channel}>
-                <Phone />
-                <span>
-                  <small>{c.phoneLabel}</small>
-                  {contactInfo.phone}
-                </span>
-              </a>
               <a
                 href={contactInfo.linkedin}
                 target="_blank"
