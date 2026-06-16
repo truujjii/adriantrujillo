@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: 'Adrián Trujillo · CRM & Automation · Workflow Design · Data & BI',
   description:
-    'Business & Technology graduate building end-to-end automations (Make.com, n8n, WhatsApp API, LLMs) and Power BI dashboards. Open to CRM & Automation roles in Dubai, UAE.',
+    'Business & Technology graduate building end-to-end automations (Make.com, n8n, WhatsApp API, LLMs) and Power BI dashboards. Open to CRM & Automation roles in Barcelona and internationally.',
   keywords: [
     'Adrián Trujillo',
     'CRM Automation',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     'WhatsApp Business API',
     'Power BI',
     'Workflow automation',
-    'Dubai jobs',
+    'Barcelona',
     'AI consultant',
     'Business & Technology',
   ],
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Adrián Trujillo · CRM & Automation · Data & BI',
     description:
-      'Automations that connect CRMs with WhatsApp, email and internal systems, and the dashboards that track them. Open to relocation to Dubai, UAE.',
+      'Automations that connect CRMs with WhatsApp, email and internal systems, and the dashboards that track them. Open to relocation.',
     url: siteUrl,
     siteName: 'Adrián Trujillo',
     type: 'website',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Adrián Trujillo · CRM & Automation · Data & BI',
-    description: 'Open to CRM & Automation roles in Dubai, UAE.',
+    description: 'Open to CRM & Automation roles in Barcelona and internationally.',
   },
   robots: { index: true, follow: true },
 }
@@ -79,7 +79,7 @@ const personJsonLd = {
   },
   seeks: {
     '@type': 'Demand',
-    name: 'CRM & Automation role in Dubai, UAE',
+    name: 'CRM & Automation roles in Barcelona and internationally',
   },
   sameAs: [contactInfo.linkedin, contactInfo.github],
 }

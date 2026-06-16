@@ -48,7 +48,7 @@ export function About() {
               />
               <div className={styles.photoBadge}>
                 <Pin />
-                Barcelona → Dubai
+                Barcelona
               </div>
             </div>
           </Reveal>

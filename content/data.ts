@@ -103,12 +103,12 @@ const en: Content = {
     eyebrow: 'CRM & Automation · Workflow Design · Data & BI',
     name: 'Adrián Trujillo',
     roles: ['Automation that ships.', 'CRMs that talk to WhatsApp.', 'Data that drives decisions.'],
-    locationPill: 'Open to relocation · Dubai, UAE',
+    locationPill: 'Based in Barcelona · Open to relocation',
     summary:
       'Business & Technology graduate who builds end-to-end automations connecting CRMs with WhatsApp, email and internal systems, and turns the output into dashboards that track what matters.',
     ctaContact: 'Get in touch',
     ctaCV: 'Download CV',
-    availability: 'Spanish (EU) citizen · Eligible for UAE visa sponsorship',
+    availability: 'Spanish (EU) citizen · Open to relocation worldwide',
   },
   about: {
     title: 'About',
@@ -301,12 +301,12 @@ const en: Content = {
   },
   contact: {
     title: 'Let’s talk',
-    subtitle: 'Open to CRM & Automation roles in Dubai. The fastest way to reach me is email.',
+    subtitle: 'Open to CRM & Automation roles in Barcelona and internationally. The fastest way to reach me is email.',
     emailLabel: 'Email me',
     phoneLabel: 'Call',
     cta: 'Send an email',
     cvLabel: 'Download CV (PDF)',
-    locationNote: 'Based in Barcelona · Ready to relocate to Dubai, UAE',
+    locationNote: 'Based in Barcelona · Open to relocation',
   },
   footer: { rights: 'All rights reserved.', built: 'Designed & built by Adrián Trujillo' },
 }
@@ -317,12 +317,12 @@ const es: Content = {
     eyebrow: 'CRM & Automatización · Diseño de flujos · Datos & BI',
     name: 'Adrián Trujillo',
     roles: ['Automatización que funciona.', 'CRMs que hablan con WhatsApp.', 'Datos que guían decisiones.'],
-    locationPill: 'Disponible para relocalización · Dubái, EAU',
+    locationPill: 'Basado en Barcelona · Disponible para reubicación',
     summary:
       'Graduado en Business & Technology que construye automatizaciones de principio a fin conectando CRMs con WhatsApp, email y sistemas internos, y convierte la salida en dashboards que miden lo que importa.',
     ctaContact: 'Contactar',
     ctaCV: 'Descargar CV',
-    availability: 'Ciudadano español (UE) · Elegible para visado de trabajo en EAU',
+    availability: 'Ciudadano español (UE) · Disponible para reubicación internacional',
   },
   about: {
     title: 'Sobre mí',
@@ -515,12 +515,12 @@ const es: Content = {
   },
   contact: {
     title: 'Hablemos',
-    subtitle: 'Abierto a roles de CRM & Automatización en Dubái. La forma más rápida de contactarme es el email.',
+    subtitle: 'Abierto a roles de CRM & Automatización en Barcelona y a nivel internacional. La forma más rápida de contactarme es el email.',
     emailLabel: 'Escríbeme',
     phoneLabel: 'Llamar',
     cta: 'Enviar un email',
     cvLabel: 'Descargar CV (PDF)',
-    locationNote: 'Basado en Barcelona · Listo para trasladarme a Dubái, EAU',
+    locationNote: 'Basado en Barcelona · Disponible para reubicación',
   },
   footer: { rights: 'Todos los derechos reservados.', built: 'Diseñado y construido por Adrián Trujillo' },
 }
