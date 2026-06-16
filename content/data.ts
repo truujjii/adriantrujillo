@@ -37,7 +37,7 @@ export interface StrengthItem {
   text: string
 }
 
-export type SportIcon = 'basketball' | 'boxing' | 'padel' | 'hiking' | 'more'
+export type SportIcon = 'basketball' | 'boxing' | 'padel' | 'hiking' | 'motogp' | 'more'
 
 export interface SportItem {
   icon: SportIcon
@@ -294,6 +294,7 @@ const en: Content = {
       { icon: 'boxing', name: 'Boxing', detail: 'Current focus · discipline & resilience' },
       { icon: 'padel', name: 'Padel', detail: 'Regular · agility & quick decisions' },
       { icon: 'hiking', name: 'Hiking', detail: 'Endurance & a clear head' },
+      { icon: 'motogp', name: 'MotoGP & motorcycles', detail: 'Devoted fan since 2013' },
       { icon: 'more', name: 'Anything, really', detail: 'An all-round sports enthusiast' },
     ],
     valuesTitle: 'What it taught me',
@@ -508,6 +509,7 @@ const es: Content = {
       { icon: 'boxing', name: 'Boxeo', detail: 'Mi foco actual · disciplina y resiliencia' },
       { icon: 'padel', name: 'Pádel', detail: 'Habitual · agilidad y decisión rápida' },
       { icon: 'hiking', name: 'Senderismo', detail: 'Resistencia y cabeza despejada' },
+      { icon: 'motogp', name: 'MotoGP y motos', detail: 'Gran aficionado desde 2013' },
       { icon: 'more', name: 'Cualquier deporte', detail: 'Aficionado al deporte en general' },
     ],
     valuesTitle: 'Lo que me ha enseñado',

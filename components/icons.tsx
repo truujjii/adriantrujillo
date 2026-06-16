@@ -106,6 +106,16 @@ export const Hiking = (p: SVGProps<SVGSVGElement>) => (
   </svg>
 )
 
+export const Motorcycle = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base} {...p}>
+    <circle cx="5.5" cy="16.5" r="3.4" />
+    <circle cx="18.5" cy="16.5" r="3.4" />
+    <path d="M5.5 16.5 9 9h4.5l2.6 4.8" />
+    <path d="M9 9h7" />
+    <path d="M15 9l2-3h3" />
+  </svg>
+)
+
 export const Sparkle = (p: SVGProps<SVGSVGElement>) => (
   <svg {...base} {...p}>
     <path d="M12 3c.4 3.6 1.4 4.6 5 5-3.6.4-4.6 1.4-5 5-.4-3.6-1.4-4.6-5-5 3.6-.4 4.6-1.4 5-5Z" />

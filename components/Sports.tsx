@@ -3,7 +3,7 @@
 import { useLang } from '@/lib/i18n'
 import type { SportIcon } from '@/content/data'
 import { Reveal } from './Reveal'
-import { Basketball, Boxing, Padel, Hiking, Sparkle } from './icons'
+import { Basketball, Boxing, Padel, Hiking, Motorcycle, Sparkle } from './icons'
 import styles from './Sports.module.css'
 
 const ICONS: Record<SportIcon, (p: { className?: string }) => JSX.Element> = {
@@ -11,6 +11,7 @@ const ICONS: Record<SportIcon, (p: { className?: string }) => JSX.Element> = {
   boxing: Boxing,
   padel: Padel,
   hiking: Hiking,
+  motogp: Motorcycle,
   more: Sparkle,
 }
 
